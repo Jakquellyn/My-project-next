@@ -13,13 +13,13 @@ export const Footer = () => {
           <Link href="https://calestial.site">
             <a target="_blank" rel="noreferrer noopener" aria-label="chrome">
               <RiChromeFill size={50} style={{ fontSize: '50px' }} className="hover:text-third" />
-         </a>
+             </a>
           </Link>
         </li>
         <li className="mr-2.5 lg:mr-10 cursor-pointer">
           <Link href="https://wa.me/6283117436733?text=Hai%20Syah%20Bisa%20Bantu%20Saya?">
             <a target="_blank" rel="noreferrer noopener" aria-label="User">
-              <RiUserFill size={30} className="hover:text-third" />
+              <RiUserFill size={50} className="hover:text-third" />
             </a>
           </Link>
         </li>
