@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { RiGithubFill, RiLinkedinFill } from "react-icons/ri";
+import { RiChromeFill, RiUserFill } from "react-icons/ri";
 
 export const Footer = () => {
   return (
@@ -10,16 +10,16 @@ export const Footer = () => {
     >
       <ul className="flex text-center ">
         <li className="mr-2.5 lg:mr-10 cursor-pointer">
-          <Link href="https://github.com/philippetedajo">
-            <a target="_blank" rel="noreferrer noopener" aria-label="github">
-              <RiGithubFill size={20} className="hover:text-third" />
+          <Link href="https://calestial.site">
+            <a target="_blank" rel="noreferrer noopener" aria-label="chrome">
+              <RiChromeFill size={20} className="hover:text-third" />
             </a>
           </Link>
         </li>
         <li className="mr-2.5 lg:mr-10 cursor-pointer">
-          <Link href="https://www.linkedin.com/">
-            <a target="_blank" rel="noreferrer noopener" aria-label="linkedin">
-              <RiLinkedinFill size={20} className="hover:text-third" />
+          <Link href="https://wa.me/6283117436733?text=Hai%20Owner%20Bisa%20Bantu%20Saya?">
+            <a target="_blank" rel="noreferrer noopener" aria-label="User">
+              <RiUserFill size={20} className="hover:text-third" />
             </a>
           </Link>
         </li>
