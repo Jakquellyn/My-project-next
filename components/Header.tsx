@@ -33,7 +33,7 @@ export const Header = () => {
         </li>
         <li>
           <ActiveLink activeClassName="a-header" href="/overview">
-            <a className="header">Support</a>
+            <a className="header mr-5">Support</a>
           </ActiveLink>
         </li>
       </ul>
