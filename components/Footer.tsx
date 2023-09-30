@@ -12,7 +12,7 @@ export const Footer = () => {
         <li className="mr-2.5 lg:mr-10 cursor-pointer">
           <Link href="https://calestial.site">
             <a target="_blank" rel="noreferrer noopener" aria-label="chrome">
-              <RiChromeFill size={50} style={{ fontSize: '50px' }} className="hover:text-third" />
+              <RiChromeFill size={50} className="hover:text-third" />
              </a>
           </Link>
         </li>
